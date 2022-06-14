@@ -1,8 +1,8 @@
 # Configure the AWS Provider
 provider "aws" {
   region     = "us-west-2"
-  access_key = "AKIAVVVNOHC7YD4YLMC2"
-  secret_key = "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"
+  aws_access_key {}
+  aws_secret_key {}
 }
 
 resource "aws_s3_bucket" "s3bucketchandra" {
