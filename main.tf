@@ -10,7 +10,7 @@ resource "aws_s3_bucket" "s3bucketchandra" {
   bucket = "s3bucketchandra"
   tags = {
     Name        = "s3bucketchandra"
-    Environment = "Trial"
+    Environment = "Demodev"
   }
 }
 resource "aws_s3_bucket_public_access_block" "s3bucketchandra" {
